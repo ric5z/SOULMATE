@@ -1,0 +1,596 @@
+*{
+    margin: 0;
+}
+/*empieza encabezado de pagina*/
+/*navegacion*/
+#navegacion{
+    background-color: #D8C3D0;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+#navegacion .imagen{
+    border-radius: 45px 45px 45px 0px;
+    float: right;
+    padding-right: -20px;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+}
+#navegacion .imagen1{
+    margin-top: 4px;
+    margin-left: 557px;
+    float: left;
+    list-style: none;
+    height: 47px;
+    width: 187px;
+}
+#navegacion .compras{
+    border-radius: 20px;
+    margin-top: 12px;
+    float: right;
+    list-style: none;
+    margin-right: 150px;
+    width: 111px;
+    height: 40px;
+}
+/*numero de whatsapp*/
+#numero{
+    padding-right: 50px;
+    padding-top: 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#numero ul{
+    padding-inline-start: 0px;
+}
+#numero ul li{
+    padding-top: 19px;
+    float: right;
+    list-style: none;
+    margin-right: 102px;
+    width: 100px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+/*cabecera*/
+#cabecera{
+    position: absolute;
+    list-style: none;
+    font-size: 14px;
+    float: left;
+
+    margin-right: 20px;
+    margin-top: 22px;
+}
+#cabecera ul{
+    padding-inline-start: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+#cabecera ul li{
+    margin: 1px 27px 1px 1px;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+.button {
+    color: #704F4F;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+}
+/*categoria*/
+nav#lista{
+    background-color: #C9A4BB;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+#lista ul{
+    padding-inline-start: 0;
+}
+#lista ul a.conle{
+    border-right: 2.5px solid #FFFFFF;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+#lista ul a.conlen{
+    color: white;
+    text-decoration-line: none;
+}
+#lista ul a.condolen{
+    margin-right: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+#lista ul li{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+}
+/*termina encabezado de pagina*/
+#cumpleaños{
+    background-color: #D8C3D0;
+    width: 100%;
+    height: 1717px;
+}
+/*empieza condolencias frame*/
+#cumpleaño img{
+    width: 337px;
+    height: 315px;
+    margin: 50px 0px 0px 200px;
+}
+#texto{
+    margin: 106px 150px 0px 0px;
+    float: right;
+    width: 500px;        
+    border: 1px solid #6A6A6A;
+    padding: 33px;
+}
+#texto h3{
+    color: #6A6A6A;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 400;
+    text-align: center;
+    font-size: 25px;
+}
+#texto p{
+    color: #4E4E4E;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font: 200;
+    font-size: 17px;
+    margin-top: 10px;
+}
+/*condolencias1 compra - 1*/
+#cumpleaño1{
+    margin: 50px 0px 50px 200px;
+    float: left;
+}
+#cumpleaño1 img{
+    width: 205px;
+}
+#cumpleaño1 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño1 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño1 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias2 compra - 1*/
+#cumpleaño2{
+    margin: 50px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño2 img{
+    width: 205px;
+}
+#cumpleaño2 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño2 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño2 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias3 compra -1*/
+#cumpleaño3{
+    margin: 50px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño3 img{
+    width: 205px;
+}
+#cumpleaño3 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño3 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño3 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias4 compra - 1*/
+#cumpleaño4{
+    margin: 50px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño4 img{
+    width: 205px;
+}
+#cumpleaño4 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño4 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño4 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias5 compra - 2*/
+#cumpleaño5{
+    margin: 10px 0px 50px 200px;
+    float: left;
+}
+#cumpleaño5 img{
+    width: 205px;
+}
+#cumpleaño5 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño5 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño5 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias6 compra - 2*/
+#cumpleaño6{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño6 img{
+    width: 205px;
+}
+#cumpleaño6 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño6 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño6 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias7 compra - 2*/
+#cumpleaño7{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño7 img{
+    width: 205px;
+}
+#cumpleaño7 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño7 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño7 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias8 compra - 2*/
+#cumpleaño8{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño8 img{
+    width: 205px;
+}
+#cumpleaño8 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño8 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño8 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias9 compra - 3*/
+#cumpleaño9{
+    margin: 10px 0px 50px 200px;
+    float: left;
+}
+#cumpleaño9 img{
+    width: 205px;
+}
+#cumpleaño9 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño9 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño9 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias10 compra - 3*/
+#cumpleaño10{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño10 img{
+    width: 205px;
+}
+#cumpleaño10 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño10 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño10 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias11 compra - 3*/
+#cumpleaño11{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño11 img{
+    width: 205px;
+}
+#cumpleaño11 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño11 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño11 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*condolencias12 compra - 3*/
+#cumpleaño12{
+    margin: 10px 0px 50px 50px;
+    float: left;
+}
+#cumpleaño12 img{
+    width: 205px;
+}
+#cumpleaño12 p{
+    font-family: 'roboto condensed';
+    margin-bottom: 6px;
+}
+#cumpleaño12 button{
+    color: #A9638F;
+    font-family: 'roboto condensed';
+    background-color: #d8c3d0;
+    border: 2px solid #A9638F;
+    border-radius: 20px;
+    width: 93px;
+    height: 34px;
+    margin-left: 50px;
+}
+#cumpleaño12 button:hover{
+    color: white;
+    background-color: #A9638F;
+}
+/*termina condolencias*/
+/*comienza pie de pagina*/
+#pie{
+    background-color: #BFADB8;
+    height: 255px;
+    width: 100%;
+}
+/*metodos de pago*/
+#pago h3{
+    width: 175px;
+    padding: 78px 0px 0px 9px;
+    margin-left: 120px;
+    font: -webkit-control;
+    font-size: 17px;
+    border-bottom: 5px solid #757575;
+}
+#pago .visa{
+    width: 67px;
+    margin-left: 123px;
+    margin-top: 16px;
+}
+#pago .yape{
+    width: 30px;
+    margin-left: 10px;
+}
+#pago .mastercard{
+    width: 47px;
+    margin-left: 10px;
+}
+/*categoria*/
+#contacto a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: -1px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#cliente a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#categoria a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#contacto{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 94px;
+}
+#contacto p{
+    font: small-caption;
+    font-size: 18px;
+    color: #000000;
+}
+#contacto h3#contactanos{
+    border-bottom: 4px solid #757575;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    margin-bottom: 8px;
+    width: 154px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+}
+#cliente{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 71px;
+}
+#cliente h3#servicio{
+    border-bottom: 4px solid #757575;
+    width: 213px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+#categoria{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 71px;
+}
+#categoria h3#catego{
+    border-bottom: 4px solid #757575;
+    width: 129px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+/*todos los derechos reservados*/
+#derechos h2{
+    width: 247px;
+    font: -webkit-control;
+    font-family: 'Roboto Condensed';
+    font-size: 12px;
+    margin: 82px 0px 0px 49px;
+}
+#derechos h2 img{
+    width: 11px;
+}
+/*redes sociales*/
+#redes{
+    float: right;
+    width: 200px;
+    margin: -37px 274px 0px 0px;
+}
+#redes img{
+    border-radius: 52px;
+    width: 50px;
+    margin-right: 13px;
+}
+/*termina pie de pagina*/

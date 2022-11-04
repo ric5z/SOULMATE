@@ -1,0 +1,552 @@
+*{
+    margin: 0;
+}
+/*empieza encabezado de pagina*/
+/*navegacion*/
+#navegacion{
+    background-color: #D8C3D0;
+    height: 60px;
+    width: 100%;
+    text-align: center;
+}
+#navegacion .imagen{
+    border-radius: 45px 45px 45px 0px;
+    float: right;
+    padding-right: -20px;
+    list-style: none;
+    width: 20px;
+    height: 20px;
+    margin-top: 22px;
+}
+#navegacion .imagen1{
+    margin-top: 4px;
+    margin-left: 557px;
+    float: left;
+    list-style: none;
+    height: 47px;
+    width: 187px;
+}
+#navegacion .compras{
+    border-radius: 20px;
+    margin-top: 12px;
+    float: right;
+    list-style: none;
+    margin-right: 150px;
+    width: 111px;
+    height: 40px;
+}
+/*numero de whatsapp*/
+#numero{
+    padding-right: 50px;
+    padding-top: 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+#numero ul{
+    padding-inline-start: 0px;
+}
+#numero ul li{
+    padding-top: 19px;
+    float: right;
+    list-style: none;
+    margin-right: 102px;
+    width: 100px;
+    height: 26px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    color: #000000;
+}
+/*cabecera*/
+#cabecera{
+    position: absolute;
+    list-style: none;
+    font-size: 14px;
+    float: left;
+
+    margin-right: 20px;
+    margin-top: 22px;
+}
+#cabecera ul{
+    padding-inline-start: 100px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 18px;
+}
+#cabecera ul li{
+    margin: 1px 27px 1px 1px;
+    display: inline-block;
+    text-decoration-line: underline;
+}
+.button {
+    color: #704F4F;
+    font-family: 'Roboto Condensed', sans-serif;
+    display: inline-block;
+}
+/*categoria*/
+nav#lista{
+    background-color: #C9A4BB;
+    text-align: center;
+    list-style: none;
+    width: 100%;
+    height: 40px;
+    font-family: 'Roboto Condensed', sans-serif;
+    color: white;
+    font-size: 17px;
+}
+#lista ul{
+    padding-inline-start: 0;
+}
+#lista ul a.conle{
+    border-right: 2.5px solid #FFFFFF;
+    margin-right: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+#lista ul a.conlen{
+    color: white;
+    text-decoration-line: none;
+}
+#lista ul a.condolen{
+    margin-right: 20px;
+    padding-right: 20px;
+    text-decoration-line: none;
+    color: white;
+}
+#lista ul li{
+    margin-top: 10px;
+    display: inline-block;
+    color: white;
+}
+/*termina encabezado de pagina*/
+/*empieza debajo de encabezado*/
+#seccion{
+    background-color: #D8C3D0;
+    height: 535px;
+    width: 100%;
+}
+#seccion header h1{
+    position: absolute;
+    width: 364px;
+    height: 165px;
+    left: 174px;
+    top: 171px;
+    font-family: 'Roboto Condensed';
+    font-weight: 300;
+    font-size: 67px;
+    align-items: center;
+    color: #000000;
+}
+#seccion #h2{
+    position: absolute;
+    width: 327px;
+    height: 80px;
+    left: 174px;
+    top: 339px;
+    font-family: 'Roboto Condensed';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 41px;
+    color: #000000;
+}
+#seccion img.cesta{
+    position: absolute;
+    width: 461px;
+    height: 388px;
+    left: 790px;
+    top: 167px;
+    border-radius: 60px;
+}
+#seccion img.mas{
+    border-radius: 20px;
+    position: absolute;
+    margin-top: 358px;
+    margin-left: 340px;
+    width: 155px;
+    height: 43px;
+}
+/*termina debajo encabezado*/
+/*empieza mas vendidos*/
+#vendidos h3{
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}
+#arreglos{
+    height: 400px;
+    width: 100%;
+    display: inline-block;
+}
+/*arreglos florales*/
+#arreglo{
+    color: #704F4F;
+    float: left;
+    border-right: 7px solid #D8C3D0;
+    padding-right: 19px;
+}
+#arreglo img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 128px;
+}
+#arreglo h4{
+    margin-top: 5px;
+    margin-left: 136px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*desayunos*/
+#desayuno{
+    color: #704F4F;
+    float: left;
+    border-right: 7px solid #D8C3D0;
+    padding-right: 19px;
+}
+#desayuno img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#desayuno h4{
+    margin-top: 5px;
+    margin-left: 78px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*peluches*/
+#peluches{
+    color: #704F4F;
+    float: left;
+    border-right: 7px solid #D8C3D0;
+    padding-right: 19px;
+}
+#peluches img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#peluches h4{
+    margin-top: 5px;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*cestas*/
+#cestas{
+    color: #704F4F;
+    float: left;
+    border-right: 7px solid #D8C3D0;
+    padding-right: 19px;
+}
+#cestas img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#cestas h4{
+    margin-top: 5px;
+    margin-left: 87px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*licores*/
+#licores{
+    color: #704F4F;
+    float: left;
+}
+#licores img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#licores h4{
+    margin-top: 5px;
+    margin-left: 88px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*termina mas vendidos*/
+/*empieza mas buscados*/
+#buscados{
+    background-color: #D8C3D0;
+    height: 415px;
+    width: 100%;
+    display: inline-block;
+}
+#mas h3{
+    font-size: 25px;
+    text-decoration-line: underline;
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Roboto Condensed';
+    font-weight: bold;
+}
+/*regalos para hombre*/
+#hombre{
+    color: black;
+    float: left;
+    height: 300px;
+    width: 190px;
+    margin-left: 328px;
+}
+#hombre img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+}
+#hombre h4{
+    margin-top: 5px;
+    margin-left: 32px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    text-decoration-line: none;
+}
+/*regalos de aniversario*/
+#aniversario{
+    color: black;
+    float: left;
+    height: 320px;
+    width: 190px;
+    margin-left: 60px;
+}
+#aniversario img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+}
+#aniversario h4{
+    margin-top: 5px;
+    margin-left: 35px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    height: 50px;
+    text-decoration-line: none;
+}
+/*condolencias*/
+#condolencias{
+    color: black;
+    float: left;
+    height: 305px;
+    width: 193px;
+    margin-left: 60px;
+}
+#condolencias img{
+    width: 190px;
+    height: 220px;
+    margin-top: 30px;
+}
+#condolencias h4{
+    margin-top: 5px;
+    margin-left: 30px;
+    font-size: 20px;
+    font-family: 'Roboto Condensed';
+    text-decoration-line: none;
+}
+/*termina mas buscados*/
+/*empieza comentarios*/
+#comentarios{
+    height: 789px;
+    width: 100%;
+}
+/*comentario 1*/
+#comdesayuno h2{
+    float: right;
+    font-size: 24px;
+    font-family: 'Roboto Condensed';
+    margin-right: 302px;
+    padding-top: 93px;
+}
+#comdesayuno p{
+    position: absolute;
+    float: right;
+    font-size: 22px;
+    height: 0px;
+    font-family: 'Roboto Condensed';
+    padding-left: 676px;
+    margin-top: 154px;
+}
+#comdesayuno img{
+    width: 312px;
+    height: 338px;
+    margin-top: 37px;
+    margin-left: 245px;
+    border-radius: 35px;
+}
+/*comentario 2*/
+#comdesayuno1 h2{
+    float: left;
+    font-size: 23px;
+    font-family: 'Roboto Condensed';
+    padding-top: 115px;
+    margin-left: 171px;
+}
+#comdesayuno1 span{
+    font-size: 29px;
+}
+#comdesayuno1 p{
+    position: absolute;
+    float: left;
+    font-size: 22px;
+    height: 0px;
+    font-family: 'Roboto Condensed';
+    padding-left: 172px;
+    margin-top: 179px;
+}
+#comdesayuno1 img{
+    width: 312px;
+    height: 338px;
+    margin-top: 25px;
+    float: right;
+    border-radius: 35px;
+    margin-right: 275px;
+}
+/*termina comentario*/
+/*empieza footer*/
+#pie{
+    background-color: #BFADB8;
+    height: 255px;
+    width: 100%;
+}
+/*metodos de pago*/
+#pago h3{
+    width: 175px;
+    padding: 78px 0px 0px 9px;
+    margin-left: 120px;
+    font: -webkit-control;
+    font-size: 17px;
+    border-bottom: 5px solid #757575;
+}
+#pago .visa{
+    width: 67px;
+    margin-left: 123px;
+    margin-top: 16px;
+}
+#pago .yape{
+    width: 30px;
+    margin-left: 10px;
+}
+#pago .mastercard{
+    width: 47px;
+    margin-left: 10px;
+}
+/*categoria*/
+#contacto a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: -1px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#cliente a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#categoria a{
+    font: small-caption;
+    font-size: 18px;
+    margin-bottom: 5px;
+    text-decoration-line: none;
+    color: #000000;
+}
+#contacto{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 94px;
+}
+#contacto p{
+    font: small-caption;
+    font-size: 18px;
+    color: #000000;
+}
+#contacto h3#contactanos{
+    border-bottom: 4px solid #757575;
+    text-align: center;
+    padding-bottom: 5px;
+    padding-right: 2px;
+    margin-bottom: 8px;
+    width: 154px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+}
+#cliente{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 71px;
+}
+#cliente h3#servicio{
+    border-bottom: 4px solid #757575;
+    width: 213px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 2px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+#categoria{
+    float: right;
+    width: auto;
+    margin-top: 38px;
+    margin-right: 71px;
+}
+#categoria h3#catego{
+    border-bottom: 4px solid #757575;
+    width: 129px;
+    font-family: 'Inter';
+    font-weight: bolder;
+    font-size: 20px;
+    padding-left: 3px;
+    padding-bottom: 5px;
+    margin-bottom: 8px;
+}
+/*todos los derechos reservados*/
+#derechos h2{
+    width: 247px;
+    font: -webkit-control;
+    font-family: 'Roboto Condensed';
+    font-size: 12px;
+    margin: 82px 0px 0px 49px;
+}
+#derechos h2 img{
+    width: 11px;
+}
+/*redes sociales*/
+#redes{
+    float: right;
+    width: 200px;
+    margin: -37px 274px 0px 0px;
+}
+#redes img{
+    border-radius: 52px;
+    width: 50px;
+    margin-right: 13px;
+}
+/*termina footer*/
